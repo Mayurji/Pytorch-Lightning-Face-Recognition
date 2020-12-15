@@ -12,6 +12,12 @@ Siamese Network is one of the simplest neural network architecture. It involves 
 
 [Try out any of these datasets from Kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/discussion/121594)
 
+## Packages Installation
+
+```python
+pip install -r requirements.txt
+```
+
 # How to execute
   > python model.py --batch_size=64 --pretrain_epochs=1000 --margin=2.0 --imageFolderTrain='./SiameseNetworkData/training/' --imageFolderTest='./SiameseNetworkData/testing/' --learning_rate=5e-5 --resize=100
 
