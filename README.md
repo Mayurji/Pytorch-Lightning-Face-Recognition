@@ -24,3 +24,6 @@ pip install -r requirements.txt
 # Result
 ![Face Recognition](/images/siamese_result.png)
 
+# References
+
+[Face Similarity](https://github.com/harveyslash/Facial-Similarity-with-Siamese-Networks-in-Pytorch)
